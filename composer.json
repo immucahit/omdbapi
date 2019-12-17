@@ -1,0 +1,11 @@
+{
+    "name": "immucahit/omdbapi",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Mücahit  Bayraktar",
+            "email": "immucahit@outlook.com"
+        }
+    ],
+    "require": {}
+}
