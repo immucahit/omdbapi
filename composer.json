@@ -1,11 +1,21 @@
 {
     "name": "immucahit/omdbapi",
     "type": "library",
+    "version": "1.0.0",
     "authors": [
         {
-            "name": "Mücahit  Bayraktar",
+            "name": "Mücahit Bayraktar",
             "email": "immucahit@outlook.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": "^7.4",
+        "ext-json": "*",
+        "guzzlehttp/guzzle" : "^7"
+    },
+    "autoload": {
+        "psr-4": {
+            "OMDBAPI\\": "src/"
+        }
+    }
 }
