@@ -1,5 +1,6 @@
 {
     "name": "immucahit/omdbapi",
+    "description": "OMDb API Library",
     "type": "library",
     "version": "1.0.0",
     "authors": [
