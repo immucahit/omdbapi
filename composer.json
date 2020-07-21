@@ -1,22 +1,26 @@
 {
-    "name": "immucahit/omdbapi",
-    "description": "OMDb API Library",
-    "type": "library",
-    "version": "1.0.0",
-    "authors": [
-        {
-            "name": "Mücahit Bayraktar",
-            "email": "immucahit@outlook.com"
-        }
-    ],
-    "require": {
-        "php": "^7.4",
-        "ext-json": "*",
-        "guzzlehttp/guzzle" : "^7"
-    },
-    "autoload": {
-        "psr-4": {
-            "OMDBAPI\\": "src/"
-        }
+  "name": "immucahit/omdbapi",
+  "description": "OMDb API Library",
+  "keywords": [
+    "omdbapi"
+  ],
+  "type": "library",
+  "version": "1.0.0",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mücahit Bayraktar",
+      "email": "immucahit@outlook.com"
     }
+  ],
+  "require": {
+    "php": "^7.4",
+    "ext-json": "*",
+    "guzzlehttp/guzzle": "^7"
+  },
+  "autoload": {
+    "psr-4": {
+      "OMDBAPI\\": "src/"
+    }
+  }
 }
